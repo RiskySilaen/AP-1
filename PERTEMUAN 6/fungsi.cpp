@@ -12,7 +12,7 @@ int tambah(int a, int b) {
     return a + b;
 }
 
-// fungsi overload
+// fungsi overload dua fungsi dengan nama yang sama tetapi memiliki nama yang berbeda atau tipe data berbeda
 int kali(int a, int b) {
     return a * b;
 }
@@ -30,7 +30,7 @@ int faktorial(int n) {
 }
 
 int main() {
-    system ("CLS");
+    system ("CLS"); // untuk membersihkan terminal
 
     // menggunakan fungsi tanpa nilai balikan
     tampilkanPesan();
@@ -47,7 +47,7 @@ int main() {
     cout << "hasil perkalian (int) : " << hasilKaliInt << endl;
     cout << "hasil perkalian (double) : " << hasilKaliDouble << endl;
 
-    // menggunakan fungsi rekursif
+    // menggunakan fungsi rekursif yaitu memanggil dirinya sendiri
     int angka = 5;
     cout << "Faktorial dari " << angka << " adalah " << faktorial(angka) << endl;
 
