@@ -1,10 +1,10 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 int main()
 {
-    system("CLS");
-    float luas, p, l;
+    system("CLS"); // untuk membersihkan terminal
+    float luas, p, l; // variabel luas, p, l bertipe float
 
     cout << "masukkan panjang: ";
     cin >> p;
