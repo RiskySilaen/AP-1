@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    system("cls");
+    system ("cls");
     //vector declaration & initialization
 
     vector<string>nama_karyawan = {"Alya", "Parul", "Syukron", "Aurick", "Dzakwan"};
@@ -21,7 +21,7 @@ int main()
     // }
 
     //Delete data form vector index terakhir
-    nama_karyawan.pop_back();
+    nama_karyawan.pop_back(); // menghapus nama terakhir dari daftar nama karyawan
 
     //Delete data form vector index tertentu
     nama_karyawan.erase(nama_karyawan.begin()+3);
