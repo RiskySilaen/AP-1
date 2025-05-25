@@ -11,7 +11,7 @@ int main()
     int a=3;
     int b=5;
 
-    // aritmetical operator(+, -, /, *, &)
+    // aritmetical operator(+, -, /, *, %) (jenis- jenis operasi seperti tambah, kurang,bagi, kali,mod)
     //int tambah = a + b;
     //int kurang = a - b;
     //int kali = a * b;
@@ -26,7 +26,7 @@ int main()
     //cout<<"hasil sisa bagi : "<< modulo << endl;
 
 
-    // relational operator
+    // relational operator digunakan untuk membandingkan nilai dari dua operand
     //cout << (a==b)<< endl;
     //cout << (a>b) << endl;
     //cout << (a>=b) << endl;
@@ -34,7 +34,7 @@ int main()
     //cout << (a<=b) << endl;
     //cout << (a!=b) << endl;
 
-    //logical operator
+    //logical operator digunakan untuk membandingkan dua nilai variabel yang bertipe boolean
     //cout << (true && true) << endl;
     //cout << (true && false) << endl;
     //cout << (false && true) << endl;
@@ -43,7 +43,7 @@ int main()
     //cout <<!true << endl;
     //cout <<!false << endl;
 
-    //bitwise operator(&,]< ~,^,<<,>>) --> operasi biner
+    //bitwise operator(&,]< ~,^,<<,>>) --> operasi biner digunakan untuk operasi bit per bit pada nilai integer
     // cout << (5 & 7) << endl;
     // cout << (5 | 7) << endl;
     // cout << (5 ^ 7) << endl;
@@ -51,7 +51,7 @@ int main()
     // cout << (7 << 2) << endl;
     // cout << (7 >> 2)  endl;
 
-    // shorthand
+    // shorthand untuk mempersingkat operasi bilangan
     // a += 7; // a = a + 7
     // cout << a << endl;
 
@@ -64,7 +64,7 @@ int main()
     // a /= 7; //a = a / 7;
     // cout << a << endl;
 
-    // increment & decrement
+    // increment & decrement adalah menjumlahkan dan mengurangi
     // pre increment
     // cout << a << endl;
     // cout << ++a << endl;
@@ -81,14 +81,14 @@ int main()
     // cout << b++ << endl;
     // cout << b << endl;
 
-    // pre increment
+    // pre increment penambahan nilai yang dilakukan sebelum nilai variabel digunakan dalam ekspresi dan ditampilkan
     // cout << a << endl;
     // cout << --a << endl;
     
     // cout << b << endl;
     // cout << --b << endl;
 
-    //post increment
+    //post increment menampilkan nilai terlebih dahulu kemudian di operasikan
     // cout << a << endl;
     // cout << a-- << endl;
     // cout << a << endl;
