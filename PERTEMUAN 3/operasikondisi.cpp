@@ -9,13 +9,13 @@ int main()
     cout << "masukkan nilai: ";
     cin >> nilai;
 
-    //if statment
+    //if statment dapat digunakan untuk mengambil keputusan berdasarkan suatu kondisi
     // if(nilai <= 65)
     // {
     //     cout << "anda tidak lulus" << endl;
     // }
 
-    //if else statment
+    //if else statment memiliki dua buah kondisi
     // if(nilai <= 65)
     //  {
     //     cout << "anda tidak lulus" << endl;
@@ -25,7 +25,7 @@ int main()
     //     cout << "anda lulus!" << endl;
     //  }
      
-    // if else if statment
+    // if else if statment digunakan untuk kondisi sebanyak 3 atau lebih
     // if (nilai == 100)
     // {
     //     cout << "anda kece!" << endl;
@@ -39,7 +39,7 @@ int main()
     //     cout << "anda lulus" << endl;
     // }
 
-    //wested if
+    //nested if adalah dimana ada kondisi di dalam kondisi
     // if (nilai <= 65)
     // {
     //     cout << "anda tidak lulus" << endl;
@@ -56,7 +56,7 @@ int main()
     //     }
     // }
 
-    //switch case
+    //switch case adalah pernyataan yang digunakan untuk menjalankan salah satu dari beberapa kemungkinan pernyataan
     // switch (nilai)
     // {
     //     case 1:
@@ -85,7 +85,7 @@ int main()
 
     // }
     
-    //switch range
+    //switch range adalah yang memungkinkan Anda untuk menjalankan blok kode tertentu berdasarkan rentang nilai
     // switch (nilai)
     // {
     //     case 85 ... 100 : cout << "A" << endl; break;
@@ -98,7 +98,7 @@ int main()
         
     // }
 
-    // ternary operator
+    // ternary operator gabungan operasi kondisi dengan menggunakan operasi aritmatika
     // if (nilai % 2 == 0)
     // {
     //     cout <<"genap nih" << endl;
@@ -108,7 +108,7 @@ int main()
     //     cout << "ganjil sih" << endl;
     // }
 
-    string checkNum = (nilai % 2 == 0) ? "genap" : "ganjil";
+    string checkNum = (nilai % 2 == 0) ? "genap" : "ganjil"; // versi sederhana dari statment operasi if else
     cout << nilai << " tuh bilangan" << checkNum << " sih" << endl;
 
 }
