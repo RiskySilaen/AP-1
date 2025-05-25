@@ -4,7 +4,7 @@ using namespace std;
 string namaGlobal = "Ilmu";
 
 void namaVariabel() {
-    string namaLokal = "Komputer";
+    string namaLokal = "Komputer"; // ini adalah variabel lokal
 
     //coba akses
     cout << namaLokal << endl;
